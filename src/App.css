@@ -1,5 +1,5 @@
 #maindiv{
-  background-image: url(https://img.freepik.com/premium-photo/high-angle-view-food-hamburger-plate-wooden-table_1170794-462497.jpg);
+  background-image: url(./backgroundi.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,17 +9,22 @@
   margin-top: 160px;
 }
 
-
 #hea{
   color: black;
   font-size: 50px;
   font-weight: 600;
  
 }
+#but0{
+  display: none;
+  color:black;
+  background-color: white;
+}
 #but1{
   color:black;
   background-color: white;
   border-radius: 30px;
+  
 
 }
 #but1:hover{
@@ -194,6 +199,12 @@
 @media screen and (max-width:576px){
   #homemadiv{
     margin-top: 60px;
+  }
+  #but0{
+    display: block;
+  }
+  #but1{
+    display: none;
   }
   #hea{
     font-size: 40px;
