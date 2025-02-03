@@ -1,0 +1,193 @@
+#maindiv{
+  background-image: url(https://img.freepik.com/premium-photo/high-angle-view-food-hamburger-plate-wooden-table_1170794-462497.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+
+#hea{
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+ 
+}
+#but1{
+  color:black;
+  background-color: white;
+  border-radius: 30px;
+
+}
+#but1:hover{
+  background-color: rgb(227, 227, 235);
+}
+
+#but2{
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+}
+
+#but2:hover{
+  background-color: rgb(50, 47, 47);
+}
+
+#but3{
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  height: 55px;
+}
+#but3:hover{
+  background-color: rgb(50, 47, 47);
+}
+.sub{
+  font-size: 17px;
+  color: black;
+}
+.ctit{
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+}
+.hea2{
+  font-weight: 700;
+  color: black;
+  
+}
+.sub2{
+  font-size: 17px;
+  color: black;
+}
+.sub3{
+  display: none;
+}
+#mapimg{
+  height: 400px;
+}
+.glist li{
+  cursor: pointer;
+  list-style-type: none;
+  margin-top: 20px;
+  color: rgb(34, 32, 32);
+}
+#fdiv img{
+  margin-top: 160px;
+
+}
+.flist{
+  margin-top: 25px;
+}
+.flist li{
+  color: rgb(34, 32, 32);
+  list-style-type: none;
+  margin-top: 14px;
+  cursor: pointer;
+
+}
+.flist li:hover{
+  text-decoration-line: underline;
+}
+.flist2 {
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+  font-size: 20px;
+  color: rgb(34, 32, 32);
+}
+.flist2 li:hover{
+  cursor: pointer;
+}
+.fspan:hover{
+  cursor: pointer;
+  text-decoration-line: underline;
+  
+
+}
+.fspan{
+  color: rgb(34, 32, 32); 
+}
+#fdivw{
+  color: rgb(34, 32, 32);
+
+}
+#fdivw2{
+  color: rgb(34, 32, 32);
+}
+#navbt{
+  border-radius: 50%;
+  
+}
+#navbt:hover{
+  background-color: white;
+}
+#navsignbut{
+  color: white;
+  background-color: black;
+  font-size: 17px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+#navlogbut{
+  color: black;
+  background-color: white;
+  font-size: 17px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+#navsignbut:hover{
+  background-color: rgb(50, 47, 47);
+}
+#navlogbut:hover{
+  background-color: rgb(227, 227, 235);
+}
+#sli{
+  background-color: blue;
+  width: 25%;
+}
+
+
+
+@media screen and (max-width:576px){
+  #hea{
+    font-size: 40px;
+  }
+  .sub2{
+    display: none;
+  }
+  #mapimg{
+    height: 200px;
+  }
+  .sub3{
+    display: block;
+    font-size: 17px;
+    color: black;
+    margin-top: 25px;
+
+  }
+  #seccittydiv{
+    display: none;
+  }
+
+  #fdiv img{
+  margin-top: 20px;
+
+}
+#sli{
+  background-color: blue;
+  width: 75%;
+}
+#navsignbut{
+  
+  font-size: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+#navlogbut{
+  
+  font-size: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+}
