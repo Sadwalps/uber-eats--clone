@@ -8,7 +8,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
-import { faInstagram, faSquareFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faAndroid, faInstagram, faSquareFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -22,7 +22,7 @@ function Home() {
         <div style={{ position: "sticky", top: "2px" }}>
           <Header />
         </div>
-        <div className="container-fluid ps-lg-3 ps-1" style={{ marginTop: "160px" }}>
+        <div className="container-fluid ps-lg-3 ps-1" id='homemadiv' >
           <h1 id='hea'>Order delivery near you</h1>
           <div className="row mt-4">
             <div className="col-md-7 ">
@@ -78,8 +78,22 @@ function Home() {
           </div>
         </div>
       </div>
+
+      <div id='mobdiv' className='mt-4 ms-3'>
+                <div className='cobntainer-fluid d-flex gap-3 justify-content-center '>
+                  <img src="https://www.ubereats.com/_static/31ee382bd0e6ed84.svg" alt="" style={{height:"57px"}} />
+                  <h5 style={{fontSize:"25px" ,color:"black",paddingRight:"50px",fontWeight:"bold"}}>There's more to love in the Android app.</h5>
+                  </div>
+                <div className='m-2'>
+                <button className='btn btn-light w-100' id='mobdivbt'><FontAwesomeIcon icon={faAndroid} style={{color: "#000000",marginRight:"9px",fontSize:"16px"}} />Get the app</button>
+                </div>
+                
+      </div>
+
+
+
       {/* Next section */}
-      <div className="conatiner-fluid mt-5 pt-2">
+      <div className="conatiner-fluid mt-4 pt-2">
         <div className="row p-0 m-0 ">
           <div className="col-md-4 mt-3">
             <Card style={{ width: '100%',border:"0px" }}>
