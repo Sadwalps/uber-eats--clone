@@ -76,13 +76,6 @@ function Home() {
 
                 </Accordion>
 
-
-                  
-
-                    
-                  
-
-
                 </div>
 
                 <div className="col-md-2   mt-lg-2 mt-3">
@@ -157,10 +150,6 @@ function Home() {
 
 
 
-
-
-
-
       <div className="container-fluid mt-5 p-3 mb-5">
         <div className="container-fluid d-flex justify-content-between 
         ">
@@ -170,7 +159,9 @@ function Home() {
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">
-              <Link > <img src="https://www.thestatesman.com/wp-content/uploads/2020/04/googl_ED.jpg " alt="" className='w-100' id='mapimg' /></Link>
+              <Link > <img src="https://www.thestatesman.com/wp-content/uploads/2020/04/googl_ED.jpg " alt="" className='w-100' id='mapimg' />
+              
+              </Link>
             </div>
             <div className="row">
               <div className="col-md-6 ">
