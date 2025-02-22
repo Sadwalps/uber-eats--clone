@@ -2,15 +2,8 @@ import { faAndroid, faApple } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-
-
-
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
@@ -20,10 +13,10 @@ function Header() {
       {[false,].map((expand) => (
         <Navbar key={expand} expand={expand} >
           <Container fluid className='d-flex ' >
-            <div className='d-flex'>
+            <div className='d-flex '>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className='' id='navbt' />
               <h5 style={{ color: "black", paddingTop: "10px" }} className='ps-3'>uber <span style={{ fontWeight: "bold" }}> EATS</span></h5></div>
-            <div className='p-4 d-flex'>
+            <div className='p-2 d-flex'>
               <button className='btn rounded-circle mt-2' id='but0'><FontAwesomeIcon icon={faUser} style={{ color: "#000000", }} /></button>
               <button className='btn  mt-2' id='but1' >Log in</button>
               <button className='btn mt-2 ms-3' id='but2' >Sign up</button>
@@ -56,11 +49,7 @@ function Header() {
                     <li className='ms-3'>Sign up to deliver</li>
 
                   </ul>
-
-
                   <div className="conatiner-fluid ">
-
-
                   </div>
                 </div>
                 <div className='container-fluid ' id='navsdiv2' >
