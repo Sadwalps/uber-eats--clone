@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendarDays, faChevronDown, faClock, faLocationArrow, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faCalendarDays, faChevronDown, faClock, faLocationArrow,  } from '@fortawesome/free-solid-svg-icons'
 
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
