@@ -193,6 +193,14 @@
 #mobdiv{
   display: none;
 }
+.maplocat + spa{
+  display: none;
+}
+.maplocat:hover + #spa{
+ display: block;
+ 
+  
+}
 
 /* media queries */
 

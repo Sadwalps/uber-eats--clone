@@ -2,15 +2,12 @@ import React from 'react'
 import Header from './Header'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarDays, faChevronDown, faClock, faLocationArrow, faLocationDot } from '@fortawesome/free-solid-svg-icons'
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
-
 
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import { faAndroid, faInstagram, faSquareFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import Accordion from 'react-bootstrap/Accordion';
-
+import photo from '../assets/uberprojecti.png'
 
 
 
@@ -30,7 +27,6 @@ function Home() {
               <div className="row">
 
                 <div className="col-md-7 mt-2">
-
 
                   <Accordion  >
                     <Accordion.Header >
@@ -158,8 +154,8 @@ function Home() {
         </div>
         <div className="container-fluid">
           <div className="row">
-            <div className="col-12">
-              <Link > <img src="https://www.thestatesman.com/wp-content/uploads/2020/04/googl_ED.jpg " alt="" className='w-100' id='mapimg' />
+            <div className="col-12 " style={{position:"relative"}}>
+              <Link > <img src={photo} alt="" className='w-100' id='mapimg' />
               
               </Link>
             </div>
@@ -366,10 +362,6 @@ function Home() {
           <div className="col-md-1"></div>
         </div>
       </div>
-
-
-
-
 
     </>
   )
