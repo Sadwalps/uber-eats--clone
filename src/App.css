@@ -198,8 +198,16 @@
 }
 .maplocat:hover + #spa{
  display: block;
- 
-  
+}
+#continuebtn{
+  color: black;
+  background-color: rgb(232, 227, 227);
+  font-size: 17px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+#continuebtn:hover{
+  background-color: rgb(216, 210, 210);
 }
 
 /* media queries */
@@ -281,6 +289,15 @@
 }
 #mobdiv{
   display: block;
+}
+#continuebtn{
+ 
+  font-size: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+#logqr{
+  display: none;
 }
 
 }

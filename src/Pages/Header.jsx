@@ -5,6 +5,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom';
+
 
 
 function Header() {
@@ -17,9 +19,9 @@ function Header() {
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className='' id='navbt' />
               <h5 style={{ color: "black", paddingTop: "10px" }} className='ps-3'>uber <span style={{ fontWeight: "bold" }}> EATS</span></h5></div>
             <div className='p-2 d-flex'>
-              <button className='btn rounded-circle mt-2' id='but0'><FontAwesomeIcon icon={faUser} style={{ color: "#000000", }} /></button>
-              <button className='btn  mt-2' id='but1' >Log in</button>
-              <button className='btn mt-2 ms-3' id='but2' >Sign up</button>
+              <Link to={'/loginsignup'}><button className='btn rounded-circle mt-2' id='but0'><FontAwesomeIcon icon={faUser} style={{ color: "#000000", }} /></button></Link>
+              <Link to={'/loginsignup'}><button className='btn  mt-2' id='but1' >Log in</button></Link>
+              <Link to={'/loginsignup'}><button className='btn mt-2 ms-3' id='but2' >Sign up</button></Link>
             </div>
             <Navbar.Offcanvas
               id="sli"
@@ -37,10 +39,10 @@ function Header() {
               <div className='container-fluid d-flex flex-column  justify-content-between' id='navsdiv'>
                 <div>
                   <div className="row">
-                    <div className="col-12 text-center"> <button className='btn w-75  ' id='navsignbut' >Sign up</button></div>
+                    <div className="col-12 text-center"><Link to={'/loginsignup'}><button className='btn w-75  ' id='navsignbut' >Sign up</button> </Link></div>
                   </div>
                   <div className="row mt-2">
-                    <div className="col-12 text-center"> <button className='btn w-75  ' id='navlogbut' >Log in</button></div>
+                    <div className="col-12 text-center"> <Link to={'/loginsignup'}><button className='btn w-75  ' id='navlogbut' >Log in</button></Link></div>
                   </div>
 
                   <ul className='nlist'>
