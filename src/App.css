@@ -1,102 +1,113 @@
-#maindiv{
-  background-image: url(./backgroundi.jpg);
+#maindiv {
+  background-image: url(./assets/backgroundi.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
 }
-#homemadiv{
+
+#homemadiv {
   margin-top: 160px;
 }
 
-#hea{
+#hea {
   color: black;
   font-size: 50px;
   font-weight: 600;
- 
 }
-#but0{
+
+#but0 {
   display: none;
-  color:black;
+  color: black;
   background-color: white;
 }
-#but1{
-  color:black;
+
+#but1 {
+  color: black;
   background-color: white;
   border-radius: 30px;
-  
-
 }
-#but1:hover{
+
+#but1:hover {
   background-color: rgb(227, 227, 235);
 }
 
-#but2{
+#but2 {
   color: white;
   background-color: black;
   border-radius: 30px;
 }
 
-#but2:hover{
+#but2:hover {
   background-color: rgb(50, 47, 47);
 }
 
-#but3{
+#but3 {
   color: white;
   background-color: black;
   border-radius: 10px;
   height: 55px;
 }
-#but3:hover{
+
+#but3:hover {
   background-color: rgb(50, 47, 47);
 }
-.sub{
+
+.sub {
   font-size: 17px;
   color: black;
 }
-.ctit{
+
+.ctit {
   font-size: 30px;
   color: black;
   font-weight: 700;
 }
-.hea2{
+
+.hea2 {
   font-weight: 700;
   color: black;
-  
 }
-.sub2{
+
+.sub2 {
   font-size: 17px;
   color: black;
 }
-.sub3{
+
+.sub3 {
   display: none;
 }
-#mapimg{
+
+#mapimg {
   height: 400px;
 }
-.glist li{
+
+.glist li {
   cursor: pointer;
   list-style-type: none;
   margin-top: 20px;
   color: rgb(34, 32, 32);
 }
-#fdiv img{
-  margin-top: 160px;
 
+#fdiv img {
+  margin-top: 160px;
 }
-.flist{
+
+.flist {
   margin-top: 25px;
 }
-.flist li{
+
+.flist li {
   color: rgb(34, 32, 32);
   list-style-type: none;
   margin-top: 14px;
   cursor: pointer;
-
 }
-.flist li:hover{
+
+.flist li:hover {
   text-decoration-line: underline;
 }
+
 .flist2 {
   display: flex;
   gap: 25px;
@@ -104,200 +115,222 @@
   font-size: 20px;
   color: rgb(34, 32, 32);
 }
-.flist2 li:hover{
+
+.flist2 li:hover {
   cursor: pointer;
 }
-.fspan:hover{
+
+.fspan:hover {
   cursor: pointer;
   text-decoration-line: underline;
-  
+}
 
-}
-.fspan{
-  color: rgb(34, 32, 32); 
-}
-#fdivw{
-  color: rgb(34, 32, 32);
-
-}
-#fdivw2{
+.fspan {
   color: rgb(34, 32, 32);
 }
-#navbt{
+
+#fdivw {
+  color: rgb(34, 32, 32);
+}
+
+#fdivw2 {
+  color: rgb(34, 32, 32);
+}
+
+#navbt {
   border-radius: 50%;
-  
 }
-#navbt:hover{
+
+#navbt:hover {
   background-color: white;
 }
-#navsignbut{
+
+#navsignbut {
   color: white;
   background-color: black;
   font-size: 17px;
   padding-top: 17px;
   padding-bottom: 17px;
 }
-#navlogbut{
+
+#navlogbut {
   color: black;
   background-color: white;
   font-size: 17px;
   padding-top: 17px;
   padding-bottom: 17px;
 }
-#navsignbut:hover{
+
+#navsignbut:hover {
   background-color: rgb(50, 47, 47);
 }
-#navlogbut:hover{
+
+#navlogbut:hover {
   background-color: rgb(227, 227, 235);
 }
-#sli{
+
+#sli {
   background-color: white;
   width: 25%;
 }
 
-
-.nlist li{
+.nlist li {
   list-style-type: none;
   font-size: 16px;
   color: rgb(34, 32, 32);
   margin-top: 10px;
-  
 }
-.nlist li:hover{
+
+.nlist li:hover {
   cursor: pointer;
 }
-.nlist{
+
+.nlist {
   margin-top: 20px;
 }
-#navsdiv{
+
+#navsdiv {
   gap: 300px;
 }
 
+#navbt3 {
+  border-radius: 20px;
+}
 
-#navbt3{
+#navbt4 {
   border-radius: 20px;
 }
-#navbt4{
-  border-radius: 20px;
-}
-#navbt5{
+
+#navbt5 {
   display: none;
 }
-#mobdivbt{
-  
+
+#mobdivbt {
   color: black;
   background-color: rgb(227, 227, 235);
   padding-top: 15px;
   padding-bottom: 15px;
 }
-#mobdiv{
+
+#mobdiv {
   display: none;
 }
-.maplocat + spa{
+
+.maplocat+spa {
   display: none;
 }
-.maplocat:hover + #spa{
- display: block;
+
+.maplocat:hover+#spa {
+  display: block;
 }
-#continuebtn{
+
+#continuebtn {
   color: black;
   background-color: rgb(232, 227, 227);
   font-size: 17px;
   padding-top: 17px;
   padding-bottom: 17px;
 }
-#continuebtn:hover{
+
+#continuebtn:hover {
   background-color: rgb(216, 210, 210);
 }
 
 /* media queries */
-
-@media screen and (max-width:576px){
-  #homemadiv{
+@media screen and (max-width:576px) {
+  #homemadiv {
     margin-top: 60px;
   }
-  #but0{
+
+  #but0 {
     display: block;
   }
-  #but1{
+
+  #but1 {
     display: none;
   }
-  #hea{
+
+  #hea {
     font-size: 40px;
   }
-  .sub2{
+
+  .sub2 {
     display: none;
   }
-  #mapimg{
+
+  #mapimg {
     height: 200px;
   }
-  .sub3{
+
+  .sub3 {
     display: block;
     font-size: 17px;
     color: black;
     margin-top: 25px;
-
   }
-  #seccittydiv{
+
+  #seccittydiv {
     display: none;
   }
 
-  #fdiv img{
-  margin-top: 20px;
+  #fdiv img {
+    margin-top: 20px;
+  }
 
-}
-#sli{
-  background-color: white;
-  width: 75%;
-}
-#navsignbut{
-  
-  font-size: 14px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
-#navlogbut{
-  
-  font-size: 14px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
+  #sli {
+    background-color: white;
+    width: 75%;
+  }
 
-.nlist li{
-  
-  font-size: 14px;
-  
-  margin-top: 8px;
-  
-}
+  #navsignbut {
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
 
-.nlist{
-  margin-top: 17px;
-}
-#navsdiv{
-  gap: 240px;
-}
-#navbt3{
-  display: none;
-}
-#navbt4{
-  display: none;
-}
-#navbt5{
-  display: block;
-  border-radius: 20px;
-}
-#mobdiv{
-  display: block;
-}
-#continuebtn{
- 
-  font-size: 14px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
-#logqr{
-  display: none;
-}
+  #navlogbut {
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
 
+  .nlist li {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .nlist {
+    margin-top: 17px;
+  }
+
+  #navsdiv {
+    gap: 240px;
+  }
+
+  #navbt3 {
+    display: none;
+  }
+
+  #navbt4 {
+    display: none;
+  }
+
+  #navbt5 {
+    display: block;
+    border-radius: 20px;
+  }
+
+  #mobdiv {
+    display: block;
+  }
+
+  #continuebtn {
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  #logqr {
+    display: none;
+  }
 }

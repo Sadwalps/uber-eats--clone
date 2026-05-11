@@ -7,8 +7,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
 
-
-
 function Header() {
   return (
     <>
@@ -28,13 +26,8 @@ function Header() {
               // id={`offcanvasNavbar-expand-${expand}`}
               // aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="start"
-
             >
-
               <Offcanvas.Header >
-
-
-
               </Offcanvas.Header>
               <div className='container-fluid d-flex flex-column  justify-content-between' id='navsdiv'>
                 <div>
@@ -49,8 +42,8 @@ function Header() {
                     <li className='ms-3'>Create a business account</li>
                     <li className='ms-3'>Add your restaurant</li>
                     <li className='ms-3'>Sign up to deliver</li>
-
                   </ul>
+
                   <div className="conatiner-fluid ">
                   </div>
                 </div>
@@ -64,16 +57,12 @@ function Header() {
                     <button className='btn btn-light' id='navbt4'><FontAwesomeIcon icon={faAndroid} style={{ color: "#000000", marginRight: "5px", fontSize: "16px" }} />Andriod</button>
                     <button className='btn btn-light' id='navbt5'><FontAwesomeIcon icon={faAndroid} style={{ color: "#000000", marginRight: "5px", fontSize: "16px" }} />Get the app</button>
                   </div>
-
-
                 </div>
               </div>
-
             </Navbar.Offcanvas>
           </Container>
         </Navbar>
       ))}
-
     </>
   )
 }
